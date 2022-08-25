@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+
+option java_outer_classname = "packetProto";
+option java_package = "protos";
+option java_multiple_files = true;
+
+
+message Packet {
+  int32 id = 8;
+  string type = 1;
+  int32 size = 2;
+  int32 sequenceNum = 3;
+  string checksum = 4;
+  string fileName = 5;
+  int32 swarmId = 6;
+  bytes data = 7;
+  string hostLocation = 9;
+}
+
+
