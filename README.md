@@ -34,13 +34,6 @@ The peers without the full copy of the file will act as leechers, they will reci
 The pieces downloaded needs to be validated through a checksum, if not valid the host will reject the piece and retry downloading another piece using the selection algorithm.
 After all pieces has been downloaded it will reconstruct the file and validate it as well using checksum. The peer will then become a seeder for that file.
 
-<h4>Schedule:</h4>
-05/6 - Finish Tracker and create test
-05/8 - Finish seeding functionality and testing
-05/10 - Finish file reconstruction and splitting
-05/12 - Finish leachers and testing
-05/14 - Testing and fixing issues
-05/15 - Deploy to stargate and bug fixes
 
 
 <h5>Resources:</h5>
