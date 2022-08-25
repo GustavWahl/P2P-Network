@@ -1,4 +1,4 @@
-# dsd-final-project-GustavWahlUSF
+
 
 
 <h1>BitTorrent file sharing application - Hybrid P2P</h1>
